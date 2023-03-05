@@ -1,0 +1,19 @@
+{
+  "name": "openaichat",
+  "version": "1.2.0",
+  "description": "alexa skills to enable chatgpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Robert(Spiked Qcumber Inc)",
+  "license": "Apache License",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.19.0",
+    "aws-sdk": "^2.326.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
