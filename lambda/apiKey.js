@@ -1,0 +1,1 @@
+module.exports.APIKey =  "PUT YOUR API KEY HERE, MAKE SURE IT'S PROTECTED"
