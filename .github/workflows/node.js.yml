@@ -8,7 +8,7 @@ jobs:
   test-action:
     name: GitHub Actions Test
     runs-on: ubuntu-latest
-
+    environment: Test
     steps:
       - name: Checkout
         id: checkout
