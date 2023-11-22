@@ -1,12 +1,9 @@
 name: Continuous Integration
 
-on:
-  pull_request:
+on: 
   push:
-    branches:
-      - main
-      - 'releases/*'
-
+    branches: [ main ]
+  workflow_dispatch:
 jobs:
   test-action:
     name: GitHub Actions Test
