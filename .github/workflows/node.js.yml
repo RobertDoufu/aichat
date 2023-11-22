@@ -22,6 +22,7 @@ jobs:
     name: GitHub Actions Prod
     runs-on: ubuntu-latest
     environment: Prod
+    needs: test-action
     steps:
         - name: Checkout
           id: checkout
