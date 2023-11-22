@@ -15,5 +15,18 @@ jobs:
         uses: actions/checkout@v4
      
       - name: Print Output
+      
         id: output
         run: echo "${{ steps.test-action.outputs.time }}"
+  prod-action:
+    name: GitHub Actions Prod
+    runs-on: ubuntu-latest
+    environment: Prod
+    steps:
+        - name: Checkout
+          id: checkout
+          uses: actions/checkout@v4
+     
+        - name: Print Output
+          id: output
+          run: echo "${{ steps.test-action.outputs.time }}"
